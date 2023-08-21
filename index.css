@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+}
+
+header,
+section {
+    padding: 100px 0;
+}
+
+img {
+    border-radius: 100%;
+    width: 200px;
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 60px;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 15px 0;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.small-text {
+    font-size: small;
+}
+.next-line{
+    display: block;
+}
+
+.bold-green-text {
+    font-weight: bold;
+    color: #99d930
+}
+
+.name-large {
+    font-size: 80px;
+}
+
+.h2-large {
+    font-size: 62px;
+}
+
+a {
+    color: #99D930;
+}
+
+.link-btn {
+    margin-top: 15px;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #99D930;
+    color: #252525;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.link-btn:hover,
+.link-btn:focus {
+    color: #fff;
+    background-color: #252525;
+}
+
+.inverse {
+    background-color: #252525;
+    color: #fff;
+}
+
+.mgt0 {
+    margin-top: 0;
+}
+.inverse .link-btn:hover,
+.inverse .link-btn:focus{
+    background-color: yellow;
+    color: #252525;
+}
